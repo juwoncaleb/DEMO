@@ -1,0 +1,183 @@
+@font-face {
+  font-family: CabinetGroteskBlack;
+  src: url("/fonts/Fonts/OTF/CabinetGrotesk-Black.otf");
+}
+@font-face {
+  font-family: CabinetGroteskBold;
+  src: url("/fonts/Fonts/OTF/CabinetGrotesk-Bold.otf");
+}
+@font-face {
+  font-family: CabinetGroteskExtrabold;
+  src: url("/fonts/Fonts/OTF/CabinetGrotesk-Extrabold.otf");
+}
+@font-face {
+  font-family: CabinetGroteskExtralight;
+  src: url("/fonts/Fonts/OTF/CabinetGrotesk-Extralight.otf");
+}
+@font-face {
+  font-family: CabinetGroteskLight;
+  src: url("/fonts/Fonts/OTF/CabinetGrotesk-Light.otf");
+}
+@font-face {
+  font-family: CabinetGroteskMedium;
+  src: url("/fonts/Fonts/OTF/CabinetGrotesk-Medium.otf");
+}
+@font-face {
+  font-family: CabinetGroteskRegular;
+  src: url("/fonts/Fonts/OTF/CabinetGrotesk-Regular.otf");
+}
+@font-face {
+  font-family: CabinetGroteskThin;
+  src: url("/fonts/Fonts/OTF/CabinetGrotesk-Thin.otf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "CabinetGroteskRegular", sans-serif;
+  overflow-x: hidden;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/* Tiny scrollbar for Chrome, Safari and Opera */
+.tiny-scrollbar::-webkit-scrollbar {
+  width: 0.5em;
+  opacity: 0;
+}
+.tiny-scrollbar {
+  scrollbar-width: 0.5em; /* Firefox */
+}
+.tiny-scrollbar::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.05);
+  opacity: 0;
+}
+.tiny-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #2b1a66;
+  border-radius: 1em;
+}
+
+.hero_background {
+  background-image: url("https://res.cloudinary.com/da6w53p43/image/upload/v1691565668/64550a65d9b591439c1edf3a_realtor-img9_yn6y1k.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.about_hero_background {
+  background-image: url("/sp.jpg");  /* Correct path to the image */
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.featured_listing_backrgound {
+  background-image: url("https://res.cloudinary.com/da6w53p43/image/upload/v1691583952/bedroom_jxd1vg.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.hero_overlay {
+  z-index: 1;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.55));
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.hero_overlay_2 {
+  z-index: 1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.64), transparent);
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.menu-toggle {
+  width: 20px;
+  height: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+  z-index: 999;
+}
+
+.line {
+  width: 24px;
+  height: 2px;
+  transition: transform 0.3s linear, opacity 0.3s;
+}
+
+.menu-open .line:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 2px);
+}
+
+.menu-open .line:nth-child(2) {
+  transform: rotate(-45deg) translate(6px, -1px);
+}
+
+.mobile-nav-container {
+  animation-name: customFadeInRight;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes customFadeInRight {
+  0% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
