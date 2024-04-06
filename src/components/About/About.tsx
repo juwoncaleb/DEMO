@@ -25,7 +25,7 @@ export default function About() {
         >
           <Box width={{ base: "100%", lg: "50%" }}>
             <Text color="brand.primary" lineHeight="27.2px">
-              With over twenty years of experience selling luxury properties, we
+              With over twenty years of experience  selling luxury properties, we
               have developed a deep understanding of the luxury real estate
               market and the needs of high-end clientele.
             </Text>
