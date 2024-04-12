@@ -29,7 +29,7 @@ export default function Review() {
             letterSpacing={{ base: "-0.8px", lg: "-1.6px" }}
             fontSize={{ base: "22.4px", lg: "64px" }}
           >
-             ADKATA made the process of buying my dream home easy and
+             John made the process of buying my dream home easy and
             stress-free. Her professionalism and attention to detail are
             unparalleled.
           </Text>

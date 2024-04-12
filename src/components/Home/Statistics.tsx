@@ -126,11 +126,11 @@ export default function Statistics() {
         </Box>
 
         <Box
-          width={{ base: "100%", lg: "56%" }}
-          height={{ base: "216px", lg: "409px", "2xl": "630px" }}
+          width={{ base: "100%", lg: "76%" }}
+          height={{ base: "216px", lg: "609px", "2xl": "630px" }}
         >
           <Image
-            src="./.png"
+            src="./john.png"
             alt=""
            
             objectFit="cover"

@@ -51,7 +51,7 @@ export default function Hero() {
                 textAlign="right"
                 pl={{ base: "5rem", lg: "0rem" }}
               >
-                Luxury Residential Properties in Bulgaria.
+                Luxury Residential Properties in United Kingdom.
               </Text>
             </Box>
 

@@ -43,7 +43,7 @@ export default function Purpose() {
         <Box width={{ base: "100%", lg: "57.4%" }}>
           <Box height={{ base: "231px", lg: "382px", "2xl": "424" }}>
             <Image
-              src="./bug.png"
+              src="./john.png"
               alt=""
               height="100%"
               width="100%"

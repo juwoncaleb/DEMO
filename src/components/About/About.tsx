@@ -73,7 +73,7 @@ export default function About() {
             lineHeight={{ base: "57px", lg: "105.6px" }}
             letterSpacing={{ base: "-1.6px", lg: "-2.4px" }}
           >
-           Bulgaria based Realtor.
+           United Kingdom based Realtor.
           </Text>
         </Box>
       </HStack>
