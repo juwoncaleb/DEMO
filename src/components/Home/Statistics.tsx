@@ -130,7 +130,7 @@ export default function Statistics() {
           height={{ base: "216px", lg: "609px", "2xl": "630px" }}
         >
           <Image
-            src="./john.png"
+            src="./donna.png"
             alt=""
            
             objectFit="cover"
